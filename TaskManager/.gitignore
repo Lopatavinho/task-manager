@@ -1,0 +1,96 @@
+# ===============================
+# .NET / ASP.NET Core
+# ===============================
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.bak
+*.backup
+*.log
+*.vspscc
+*.vssscc
+
+# ===============================
+# Entity Framework / Migrations
+# ===============================
+*.sqlite
+*.mdf
+*.ldf
+Migrations/
+
+# ===============================
+# VS Code
+# ===============================
+.vscode/
+.history/
+*.code-workspace
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yml
+*.pid
+*.tar
+*.tmp
+
+# ===============================
+# Sistema operacional
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ===============================
+# Logs e cache
+# ===============================
+*.log
+*.tlog
+*.cache
+*.tmp
+*.temp
+*.nupkg
+*.tgz
+*.gz
+*.zip
+*.rar
+
+# ===============================
+# Ambiente local / Configs
+# ===============================
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+# ===============================
+# ReSharper / Rider / Visual Studio
+# ===============================
+_ReSharper*/
+*.DotSettings.user
+.idea/
+.vs/
+
+# ===============================
+# Testes
+# ===============================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ===============================
+# Node.js (caso o front fique junto)
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
